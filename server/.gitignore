@@ -1,0 +1,6 @@
+##ignore all the node modules in any directory
+**/node_modules
+
+
+##ignore env file
+server/.env   

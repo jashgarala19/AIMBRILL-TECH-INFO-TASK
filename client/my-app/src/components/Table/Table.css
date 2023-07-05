@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.tableDiv {
+  padding: 20px;
+  box-sizing: border-box;
+}
+table {
+  border: 1px solid rgba(224, 224, 224, 1);
+}
+
+table th {
+  border: 1px solid rgba(224, 224, 224, 1);
+}
+thead tr th {
+  font-style: italic;
+  font-weight: 800;
+}
+
+.deleteIcon {
+  cursor: pointer;
+}
+

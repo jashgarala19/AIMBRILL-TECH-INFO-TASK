@@ -1,0 +1,52 @@
+.EditDiv {
+  /* border: 1px solid rgb(255, 3, 3); */
+  height: 100vh;
+  width: 400px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  /* opacity: 0.8; */
+  background-color: rgb(252, 252, 252);
+  color: black;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+
+  overflow: auto;
+  box-sizing: border-box;
+  /* box-shadow: 20px 2px 70px black; */
+}
+.EditDivHeader {
+  position: sticky;
+  top: 0;
+  background-color: #1a2027;
+  padding: 0px;
+  color: white;
+  padding: 15px;
+  z-index: 20;
+}
+
+.EditDivBody {
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  gap: 10px;
+  /* border: 1px solid red; */
+}
+.closeEditDivIcon {
+  position: absolute;
+  top: 10px;
+  padding-top: 15px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.EditDivFooter {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+}
